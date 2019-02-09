@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Simple Selectors</title>
+<style>
+
+h1 {
+	color:red;
+	text-align:center; }
+
+h1.highlight {
+          color:blue;
+          text-align:left;	
+}
+
+	.highlight {
+		color:black;
+		text-align:center;
+		font-weight:italic;
+	}
+
+	#mainPoint {
+		font-size:24px;
+		font-weight:bold;
+	}
+
+	p, div {
+		font-size:15px;
+	}
+
+	article > p {
+		color:grey;
+	}
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<h1 class=highlight > h1.highlight (h1)</h1>
+<h2 class=highlight> highlight (h2)</h2>
+<article> <ul style="color:yellow"> <li> class, defind with . <li> id, define with # <li> element is just element </li> </ul> </article>
+<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
+<p >Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<h2>Subheading 2 (h2)</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo ipsum dolores vel modi magnam veniam alias at nam. Voluptatem officiis dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!</p>
+<div>This is the main point of the entire article. So, attribute 
+<span id="mainPoint">id="mainPoint".</span> </div>
+
+<article>This is an article with a paragraph child. 
+	<p>This is the child paragraph, changed with article > p { color }</p>
+And this is the rest of the article</article>
+
+</body>
+</html>
+
+
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
