@@ -1,21 +1,68 @@
 <!doctype html>
  <html>
  <head>
-<style> h1 {color:darkblue;}
+<style> 
+.center {text-align:left;}
+
+
+.border { border-style:solid;
+		border-width:`20px solid green;
+		border-color:green;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+.cover {
+  object-fit: cover;
+  width: 500px;
+  height: 1000px;}
+
+h2 {text-align:center;}
+
+a:link, a:visited { 
+  text-decoration:none;
+  font-size:20px;
+  border-style:inset;
+  color:black;
+  background-color:gold;
+  font-weight:bold;
+  }
+
+  a:hover, a:active {
+    background-color:red}
+
+
+h1 {color:darkblue;}
            {font-size:40px;}
 
            h2 {font-weight:bold;
            	text-decoration: underline;
-             display:inline;}
+             text-align:center;
+           }
+           
+
            span {font-weight:bold;
            font-size:22px;} 
 
            body {background-color:dodgerblue;}
 
-          div li {background-color:green;
-                  display:block; }
-           	 	
+           li {background-color:green;
+                  border-style:solid;
+                  font-weight:bold;
+                  font-size:22px; }
+
+           	 	.inset 
            
+        .p {font-weight:bold;
+          font-size:20px;
+        }
+
+p {text-align:center;}
+
           .tleaders {
            	font-weight:bold;
            	text-decoration: underline;
@@ -24,35 +71,42 @@
            #ID { color:"blue";
 
            }
+        }
        </style>
   	</head>
  <meta: charset"utf-8">
 <title> </title>
 <body>
 	
-	<header align="center" style="font-size:60px "font-weight:"bold">New York Yankees: </header>
-		<h1 align="center" font-color:"blue"> The Rebuild </h1>
+	<header class=inset align="center" style="font-size:60px "font-weight:"bold">New York Yankees: </header>
+		<h1 class=border align="center" font-color:"blue"> The Rebuild </h1>
 		<div align= "center"><img src="https://cdn2.bigcommerce.com/server1500/ac84d/products/1075/images/2314/New_York_Yankees_-_Logo__95753.1327203245.380.380.jpg?c=2" > </div> </h1>
-		<p align=center style="font-size:25px"> <b>A brief look at the Yankees during their recent rebuild</b> </p>
+		
+		<p class=border t style="font-size:25px"> <b>A brief look at the Yankees during their recent rebuild</b> </p>
 
 
 		
-		<h2>2012:</h2>   <span>(95-67)</span> <br>
-		 <p1> Won the division.ALCS defeat to tigers 4-0. This would be the last good year for a while, as age and injuries caught up with the core.</p1> 
-	<img src="https://cbsnewyork.files.wordpress.com/2012/04/nyy1.jpg?w=1024&h=576&crop=1" height="300 width=300" </div>
+		<h2>2012:</h2>
+       <span><center>(95-67)</center></span> <br>
 
+		 <p1 class=center> Won the division.ALCS defeat to tigers 4-0. Jeter broke his ankle in game 1 of the LCS, and would miss most of the next season. (Thankfully, the Giants avenged the Yanks' loss by sweeping the tigers in the world series.) This would be the last good year for a while, as age and injuries caught up with the core.</p1> 
+	<img class=center src="https://cbsnewyork.files.wordpress.com/2012/04/nyy1.jpg?w=1024&h=576&crop=1" height=320 width=100" </div>
 
-<div class=tleaders> Team leaders: </div>
- <ul>
- 	<li> BA: Derek Jeter .316</li> 
- 	<li>HR: Curtis Granderson 43</li> 
- 	<li> ERA: Hiroki Kuroda 3.34</li> 
+ <!-- */Why is CSS internal style sheet not working on this UL?*/ -->
+<div class=tleaders>Team leaders:</div>
+ <ul style="background-color:green";
+                  "border-style:solid";
+                  "font-weight:bold";
+                  "font-size:22px";>
+  <li>BA: Derek Jeter .316</li> 
+  <li>HR: Curtis Granderson 43</li> 
+  <li> ERA: Hiroki Kuroda 3.34</li> 
  </ul>
 <a href="https://www.baseball-reference.com/teams/NYY/2012.shtml" target="_blank" title=MLB>Complete team stats </a> <br> <br>
 
-<h2> 2013 </h2> <span>(85-77)</span> <br>
-<p2> Missed the playoffs. Arod suspended,every important player spend most of the season on the DL, Red sox win the world series. Ouch.</p2>  
-<div> <img src="https://c8.alamy.com/comp/DF9B0N/mariano-rivera-yankees-september-22-2013-mlb-mariano-rivera-of-the-DF9B0N.jpg" height=300 width=500 </div>
+<h2> 2013 </h2> <span> <center>(85-77)</center></span> <br>
+<p2 class=p> Missed the playoffs. Arod suspended,every important player spend most of the season on the DL, Red sox win the world series. Ouch.</p2>  
+<div> <img class=center src="https://c8.alamy.com/comp/DF9B0N/mariano-rivera-yankees-september-22-2013-mlb-mariano-rivera-of-the-DF9B0N.jpg" height=300 width=500 </div>
  <div class=tleaders>Team leaders:</div>
  <ul> 
  	<li> BA: Robinson Cano: .314 </li>
@@ -62,26 +116,33 @@
       <a href="https://www.baseball-reference.com/teams/NYY/2013.shtml" target="_blank" title=MLB>Complete team stats </a>
       <br> <br>
 
-<h2> 2014 </h2> <span>(84-78)</span>  <br>
-	<p3>Jeters farwell tour, several bad free agent signings, missed the playoffs <i>again. </i><p3>
-      <div> <img src="https://i.ebayimg.com/images/g/7M8AAOSwxH1ULHMf/s-l300.jpg" height=300 width=300 </div>
+<h2> 2014 </h2> <span><center>(84-78)</center></span>  <br>
+	
+  <p3 class=p>Jeters farwell tour, several bad free agent signings, missed the playoffs again. </p3> <br>
+       <div>  <img class=center src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp9HrU3HOH522PfSweYiCaXPyqlwFjBqYVhQ78IrWbWANSr0GR" height=366 width=60  </div>
+ 
  <div class=tleaders> Team leaders:</div> 
 	<ul> 
 		<li> BA: Ichiro Suzuki 284</li> 
 		<li> HR:Brian McCann 23 </li> 
 		<li> ERA: Hiroki Kuroda 3.78 </li> 
 	</ul> 
+
 <a href="https://www.baseball-reference.com/teams/NYY/2014.shtml" target="_blank" title=MLBComplete>Complete team stats  </a> </div> <br> <br>
 
-<h2>2015</h2> <span>(84-78)</span> <br>
-<p4>The veteran core was just good enough to finish in the first Wild Card spot, but lost the one game playoff to the Astros.</p4> <br>
-<div> <img src="https://empirewritesback.com/wp-content/blogs.dir/210/files/2015/09/mlb-chicago-white-sox-new-york-yankees1.jpg" height=366 width=650 </div>
+
+<h2>2015</h2> <span><center>(84-78)</center></span> <br>
+
+<p4 class=p>The veteran core was just good enough to finish in the first Wild Card spot, but lost the one game playoff to the Astros.</p4> <br>
+<div> <img class=center src="https://empirewritesback.com/wp-content/blogs.dir/210/files/2015/09/mlb-chicago-white-sox-new-york-yankees1.jpg" height=366 width=60  </div>
+
 <div class=tleaders> Team leaders: </div>
 <ul> <li>BA: Carlos Beltran .276</li> <li> HR: Alex Rodriguez 33 </li> <li> ERA: Marahiro Tanaka 3.51 </li> </ul>
+
 <a href="https://www.baseball-reference.com/teams/NYY/2015.shtml" target="blank" title=MLBcomplete>Complete team stats </a> <br>
 
 
-
+<p class=tleaders> This is team leaders class </p>
 
 
 
@@ -89,5 +150,3 @@
 
 
 </body>
-
-
