@@ -1,0 +1,141 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+h2{font-size:50px;
+   font-family:sans-serif;
+   font-weight:block;}
+
+.p  {font-weight:bold;
+          font-size:20px;
+        text-align:center;
+        color:rgb(60, 60, 60);
+        font-family:fantasy;}
+div.p {color:darkblue;
+  font-weight:bold;
+            text-decoration: underline;
+            font-size:30px;
+           }  
+a {font-weight:bold;
+font-size:25px;
+color:darkgreen;}
+
+.column {box-sizing:border-box;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {box-sizing:border-box;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a:hover {background-color:red;}
+
+a:visited {color:yellow;}
+
+li:hover {background-color:red;}
+
+h2{
+  font-size:50px;
+   font-family:sans-serif;
+   font-weight:block;
+border:10px hidden red;
+background-color:grey;
+ }
+
+.cover {
+  object-fit: cover;
+  width: 500px;
+  height: 1000px;}
+
+a:active {color:white;}
+
+
+h2 {text-align:center;}
+
+header {background-color:#E4002C;
+font-family:"Arial Black", Gadget, sans-serif;}
+
+.title {border:10px darkgreen;
+  background-color:blue;
+  padding-left:80px;
+  padding-right:80px;
+
+
+}
+
+
+.padding {
+  border: 25px solid black;
+  background-color: #0C2340;
+  border-top-color:#003087;
+  border-bottom-color:#003087;
+  padding-top: 25px;
+  padding-right: 45px;
+  padding-bottom: 65px;
+  padding-left: 95px;
+}
+
+body {background-color:darkorange;
+margin: 0 ;
+    padding: 0;}
+   
+}
+
+           h2 {font-weight:bold;
+            text-decoration: underline;
+             text-align:center;}
+           
+          span {font-weight:bold;
+           font-size:22px;} 
+
+       
+         }
+ul 
+
+
+   
+            .p5 {font-weight:bold;
+            text-decoration: underline;
+            font-size:30px;
+           }  
+  
+
+           #ID { color:"blue";}
+          
+           .element-4:: before {content: attr (href);}
+        
+.hidden {
+  border-style:hidden;
+  background-color:darkred;
+  color:darkblue
+           font-size:40px;
+           margin-top:0px;
+            margin-bottom:11px;           
+            margin-right:0px;
+            margin-left;1px}
+            
+
+li {
+  background-color:green;
+                  border-style:solid;
+                  font-weight:bold;
+                  font-size:22px; }
+}
+   
+        
+.right {float:right;}
+
+
+
+
+
+
+
+
+
